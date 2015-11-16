@@ -1,2 +1,2 @@
 # html-css-js-khanacademy
-Learning every day
+Learning every day, because I'm not good with JavaScript.

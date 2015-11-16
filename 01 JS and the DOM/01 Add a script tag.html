@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: A scripted script tag</title>
+        <style>
+            .blue {
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p>A dialogue from <a href="http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29">The Princess Bride</a>:</p>
+            <ul>
+                <li><strong>Vizzini</strong>: HE DIDN'T FALL? INCONCEIVABLE.</li>
+                <li><strong>Inigo Montoya</strong>: You keep using that word. I do not think it means what you think it means.</li>
+            </ul>
+
+        <script type="text/javascript">
+            var html ="HTML",
+                version = 5;
+
+            document.body.innerHTML = html + " " + version;
+        </script>
+    </body>
+</html>
