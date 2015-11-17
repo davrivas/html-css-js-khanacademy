@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Style guide</title>
+    </head>
+    <body>
+
+        <h1>Style guide</h1>
+
+        <p>The hottest color to wear right now is:
+            <span id="trendy-color">?</span>
+        </p>
+        
+        <p>This is the trendy way to sign an autograph:
+            <span id="trendy-handwriting">?</span>
+        </p>
+        
+        <p>This is the trendy way to frame photographs:
+            <br>
+            <img id="trendy-frame" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png" alt="Cool avatar">
+        </p>
+        
+
+        <script>
+            var colorEl = document.getElementById("trendy-color");
+            var handEl  = document.getElementById("trendy-handwriting");
+            var frameEl = document.getElementById("trendy-frame");
+            
+            colorEl.innerHTML = "blue";
+            colorEl.style.color = "#00f";
+            
+            handEl.innerHTML = "Geddy Lee";
+            handEl.style.fontFamily = "monospace";
+            
+            frameEl.style.border = "1px dotted indigo";
+        </script>
+    
+    </body>
+</html>
